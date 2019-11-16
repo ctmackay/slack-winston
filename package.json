@@ -1,14 +1,14 @@
 {
-  "name": "slack-winston",
+  "name": "@ctmackay/slack-winston",
   "version": "0.0.9",
   "description": "A Slack transport for winston",
-  "author": "Nick Baugh <niftylettuce@gmail.com>",
+  "author": "Charles MacKay <charlestmackay@gmail.com>",
   "scripts": {
     "test": "mocha --timeout 5000 test/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/niftylettuce/slack-winston.git"
+    "url": "git+https://github.com/ctmackay/slack-winston.git"
   },
   "keywords": [
     "logging",
@@ -22,7 +22,7 @@
   "dependencies": {
     "async": "^2.4.1",
     "lodash": "~4.16.6",
-    "request": "~2.78.0"
+    "request": "~2.88.0"
   },
   "devDependencies": {
     "chai": "^4.0.2",
@@ -36,5 +36,14 @@
   "main": "./lib/slack-winston",
   "engines": {
     "node": ">= 0.10.x"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ctmackay/slack-winston/issues"
+  },
+  "homepage": "https://github.com/ctmackay/slack-winston#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "ISC"
 }
