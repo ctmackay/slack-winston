@@ -1,6 +1,6 @@
 {
   "name": "@ctmackay/slack-winston",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A Slack transport for winston",
   "author": "Charles MacKay <charlestmackay@gmail.com>",
   "scripts": {
